@@ -1,0 +1,51 @@
+.menuContent {
+    font-family: 'Titillium Web', sans-serif;
+    border: solid #CEAB93 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 10px;
+    width: 200px;
+    background-color: #F9F9F9;
+    position: relative;
+    z-index: 10;
+}
+
+.yellowBorder {
+    border: solid #FAF4B7 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 200px;
+    height: 245px;
+    position: absolute;
+    left: 119px;
+    top: 200px;
+    z-index: 7;
+}
+
+.subMenu {
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 0;
+}
+
+.iconYourRecipes {
+    background-image: url(../../../public/libreta.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.iconNewRecipes {
+    background-image: url(../../../public/boligrafo.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.subMenuContent {
+    display: flex;
+    align-items: center;
+}

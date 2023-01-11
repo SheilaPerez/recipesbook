@@ -1,0 +1,26 @@
+.logo {
+    background-image: url(../../../public/libro.png);
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.headerContent {
+    background-color: #F9F9F9;
+    padding:  20px 60px;
+    font-family: 'Oregano', cursive;
+    display: flex;
+    color: #CEAB93;
+    position: relative;
+}
+
+.titleStyle {
+    font-size: 35px;
+}
+.semiCircleFlex {
+    display: flex;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
